@@ -1,0 +1,144 @@
+:root {
+  --navy-blue: rgba(21, 109, 228, 1);
+  --mine-shaft: rgba(51, 51, 51, 1);
+  --mine-shaft-transparent: rgba(51, 51, 51, 0.95);
+  --chicago: rgba(92, 92, 92, 1);
+  --bon-jour-2: rgba(224, 224, 224, 0.251);
+  --bon-jour: rgba(224, 224, 224, 1);
+  --tan-hide: rgba(242, 153, 74, 1);
+  --concrete: rgba(242, 242, 242, 1);
+
+  --font-size-s: 13px;
+  --font-size-m: 18px;
+  --font-size-l: 24px;
+
+
+  --font-family-roboto: "Roboto";
+}
+.roboto-bold-navy-blue-13px {
+  color: var(--navy-blue);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-weight: 700;
+  font-style: normal;
+}
+.roboto-bold-bon-jour-24px {
+  color: var(--bon-jour-2);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  font-style: normal;
+}
+.roboto-bold-bon-jour-18px {
+  color: var(--bon-jour);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  font-style: normal;
+}
+.border-2px-tan-hide {
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--tan-hide);
+}
+.roboto-bold-concrete-24px {
+  color: var(--concrete);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  font-style: normal;
+}
+.login-modal .modal-content {
+  background-color: var(--mine-shaft-transparent);
+  font-family: var(--font-family-roboto);
+  font-variant: small-caps;
+  color: white;
+  box-shadow: 5px 5px 20px black;
+}
+
+
+label {
+  font-variant: small-caps;
+  color: lightgray;
+  font-weight: bold;
+}
+
+input[type="text"], textarea {
+  color: rgb(255, 255, 255);
+  font-variant: small-caps;
+  font-weight: bold;
+  border: solid 1px #585858;
+  background-color: rgba(51, 51, 51, 0.5);
+}
+input[type="text"]:focus {
+  background-color: rgba(51, 51, 51, 0.5);
+  box-shadow: none;
+}
+input[type="text"]:focus-within {
+  color: lightgray;
+}
+input[type="password"], textarea {
+  color: white;
+  font-variant: small-caps;
+  font-weight: bold;
+  border: solid 1px #585858;
+  background-color: rgba(51, 51, 51, 0.5);
+}
+
+input[type="password"]:focus {
+  background-color: rgba(51, 51, 51, 0.5);
+  box-shadow: none;
+}
+input[type="password"]:focus-within {
+  color: lightgray;
+}
+::selection { background-color: rgba(90, 90, 90, 0.8);  }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px #333333 inset !important;
+    -webkit-text-fill-color: white;
+}
+.close{
+  color: white;
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+}
+
+.close .sr-only{
+  display: none;
+}
+.nav-dropdown .dropdown-menu {
+  background-color: #333333;
+  right: 0;
+}
+.dropdown-menu .dropdown-item {
+  color: white;
+}
+.dropdown-menu .dropdown-item:hover {
+  background-color: #3a3a3a;
+  color: white;
+}
+.dropdown-menu .dropdown-divider {
+  height: 0;
+  margin: .5rem 0;
+  overflow: hidden;
+  border-top: 1px solid rgba(255,255,255,.15);
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255,.55);
+  border-radius: 5px;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(255,255,255,.75);
+  background-color: rgba(255,255,255, 0.1);
+}
+
+#OpenCreatePostDialogButton{
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}

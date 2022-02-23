@@ -1,0 +1,71 @@
+:root{
+    background-color: #345B7E;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #345B7E;
+}
+.backButton{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 10px;
+    margin-top: 1%;
+}
+.backButton img{
+    width: 35px;
+    margin-left: 50px;
+    transition: all 100ms ease-in-out;
+}
+.backButton img:hover{
+transform: scale(1.25);
+}
+.userCards{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+.userCard{
+    margin: 2%;
+}
+.cardButtons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    transform: scale(100%);
+    transition: all 100ms ease-in-out !important;
+}
+.btn:hover{
+    transform: scale(110%) !important;
+}
+.cardRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3%;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.list-group-item{
+    border: none !important;
+}
+.card-body{
+    padding: 0px !important;
+}
+.green{
+    color: green !important;
+}
+.red{
+    color: red !important;
+}
